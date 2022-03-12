@@ -1,0 +1,25 @@
+NODE_ENV=development
+PORT=3000
+
+DataBase=mongodb+srv://arinap:<password>@cluster0.jp1x1.mongodb.net/natours?retryWrites=true&w=majority
+DataBase_local=mongodb://localhost:27017/natours
+DataBase_password=s7k5HvsK23pN2c8
+
+JWT_secret= the-ultra-secure-and-long-arina-polianker-secret
+JWT_expires_in=90y
+JWT_cookie_expires_in=90
+
+EMAIL_USERNAME= 9ad1839ada8211
+EMAIL_PASSWORD= 4ea7a080765e30
+EMAIL_HOST= smtp.mailtrap.io
+EMAIL_PORT=2525
+
+EMAIL_FROM=arinapolianker@gmail.com
+
+SENDGRID_EMAIL_FROM=arinapolianker@gmail.com
+SENDGRID_USERNAME=apikey
+SENDGRID_PASSWORD=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
+
+STRIPE_SECRET_KEY=sk_test_51KaQmqDtxxn1J05v0vdSs4d8zjLXscVGSO4VH8fLkOA7VkmtPNDpD2nXfCIy3OTBOrDHVOJoAzlHcKR35Bqm6EAl00uiGrcYN9
+STRIPE_WEBHOOK_SECRET=whsec_Ij9jInq8gyc3WexEV2ZvFHCKmcLo6nyI
+
